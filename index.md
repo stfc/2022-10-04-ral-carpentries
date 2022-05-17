@@ -4,7 +4,7 @@ layout: workshop      # DON'T CHANGE THIS.
 # online workshop) are available at
 # https://carpentries.github.io/workshop-template/customization/index.html
 venue: "Science and Technology Facilities Council"        # brief name of the institution that hosts the workshop without address (e.g., "Euphoric State University")
-address: "online and at Rutherford Appleton Laboratory, Harwell Campus, Didcot, Oxfordshire, OX11 0QX"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria"), videoconferencing URL, or 'online'
+address: "Rutherford Appleton Laboratory, Harwell Campus, Didcot, Oxfordshire, OX11 0QX"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria"), videoconferencing URL, or 'online'
 country: "gb"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1#Current_codes) for the institution that hosts the workshop
 language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) for the workshop
 latitude: "51"        # decimal latitude of workshop venue (use https://www.latlong.net/)
@@ -129,6 +129,7 @@ address.
 {% if page.latitude and page.longitude and online == "false" %}
 <p id="where">
   <strong>Where:</strong>
+  This is a hybrid workshop which can be attended online or in person. If attending online, the instructors will provide you with the information you will need to connect to this meeting. The in-person component will take place at
   {{page.address}}.
   Get directions with
   <a href="//www.openstreetmap.org/?mlat={{page.latitude}}&mlon={{page.longitude}}&zoom=16">OpenStreetMap</a>
