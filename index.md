@@ -422,7 +422,6 @@ If you do not use Zoom for your online workshop, edit the file
 to include the relevant installation instrucctions.
 {% endcomment %}
 {% include install_instructions/videoconferencing.html %}
-{% endif %}
 
 {% comment %}
 These are the installation instructions for the tools used
