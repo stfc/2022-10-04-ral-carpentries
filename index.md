@@ -13,9 +13,9 @@ humandate: "4-5 Oct, 11-12 Oct, 1-2 Nov, 8-9 Nov, 2022"    # human-readable date
 humantime: "09:00 - 13:00"    # human-readable times for the workshop e.g., "9:00 am - 4:30 pm CEST (7:00 am - 2:30 pm UTC)"
 startdate: 2022-10-04      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2022-11-02        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
-instructor: ["Eli Chadwick", "Patrick Austin", "James Acris", "Kyle Pidgeon", "Ivan Finch"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
+instructor: ["Eli Chadwick", "Patrick Austin", "James Acris", "Kyle Pidgeon", "Ivan Finch", "Mathew Sims"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
 helper: ["STFC Volunteers"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
-email: ["eli.chadwick@stfc.ac.uk", "patrick.austin@stfc.ac.uk", "james.acris@stfc.ac.uk", "kyle.pidgeon@stfc.ac.uk", "ivan.finch@stfc.ac.uk"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
+email: ["Carpentries@stfc.ac.uk"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 collaborative_notes: https://pad.carpentries.org/2021-10-05-ral-online # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document (e.g., https://pad.carpentries.org/2015-01-01-euphoria)
 eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
 ---
@@ -260,7 +260,7 @@ Edit the text to match who can attend the workshop. For instance:
 {% endcomment %}
 <p id="who-can-attend">
     <strong>Who can attend?:</strong>
-    This workshop is open to STFC staff.
+    This workshop is open to STFC staff (this does not include those who are STFC-funded but employed at another institution).
 </p>
 
 <hr/>
